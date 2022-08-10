@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState } from "react"
 import io from 'socket.io-client';
-const socket = io.connect("https://vocal-cendol-9c2618.netlify.app")
+const socket = io.connect("https://anxious-cyan-school-uniform.cyclic.app")
 
 function App() {
   const [message, setMessage] = useState()
